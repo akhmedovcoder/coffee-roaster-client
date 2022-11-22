@@ -66,6 +66,31 @@ ul{
 
 
 /* ABOUT STYLE STARTED */
+
+.about__wrapper{
+  background-image: url(/images/about-bg.jpg);
+  border-radius: 10px;
+  padding: 137px 85px;
+}
+
+.about__section-title{
+  font-size: 40px;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+
+.about__section-desc{
+  width: 445px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: 'Barlow', sans-serif;
+  color: #FEFCF7;
+}
+
 /* ABOUT STYLE FINISHED */
 
 
