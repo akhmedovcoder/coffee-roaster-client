@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+.container{
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+
+
+/* HEADER STYLE STARTED */
+
+.site__header{
+  padding: 45px 0;
+}
+
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo{
+  width: 236px;
+  height: 26px;
+}
+
+.header__nav-list{
+  display: flex;
+  justify-content: space-between; 
+  width: 283px;
+}
+
+.header__nav-link{
+  font-size: 12px;
+  letter-spacing: 0.92px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  color: #83888F;
+}
+
+/* HEADER STYLE FINISHED */
+
+
+
+
+
+/* ABOUT STYLE STARTED */
+/* ABOUT STYLE FINISHED */
+
+
+
+
+
+/* COMMIT STYLE STARTED */
+/* COMMIT STYLE FINISHED */
+
+
+
+
+
+/* PRODUCT STYLE STARTED */
+/* PRODUCT STYLE FINISHED */
+
+
+
+
+
+/* LOCATION STYLE STARTED */
+/* LOCATION STYLE FINISHED */
+
+
+
+
+
+/* FOOTER STYLE STARTED */
+/* FOOTER STYLE FINISHED */
