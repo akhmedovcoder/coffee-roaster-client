@@ -1,179 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
 
-
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  background: #F2F2F2;
+body {
+  background: #f2f2f2;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   padding: 0;
   list-style: none;
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-
-
-
-
 /* HEADER STYLE STARTED */
 
-.site__header{
+.site__header {
   padding: 45px 0;
 }
 
-.header__wrapper{
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header__logo{
+.header__logo {
   width: 236px;
   height: 26px;
 }
 
-.header__nav-list{
+.header__nav-list {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 283px;
 }
 
-.header__nav-link{
+.header__nav-link {
   font-size: 12px;
   letter-spacing: 0.92px;
   line-height: 15px;
   text-transform: uppercase;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 700;
-  color: #83888F;
+  color: #83888f;
 }
 
 /* HEADER STYLE FINISHED */
 
-
-
-
-
 /* ABOUT STYLE STARTED */
 
-.about__wrapper{
+.about__wrapper {
   background-image: url(/images/about-bg.jpg);
   border-radius: 10px;
   padding: 137px 85px;
 }
 
-.about__section-title{
+.about__section-title {
   font-size: 40px;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-weight: 900;
   line-height: 48px;
-  color: #FEFCF7;
+  color: #fefcf7;
   margin-bottom: 24px;
 }
 
-.about__section-desc{
+.about__section-desc {
   width: 445px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  font-family: 'Barlow', sans-serif;
-  color: #FEFCF7;
+  font-family: "Barlow", sans-serif;
+  color: #fefcf7;
 }
 
 /* ABOUT STYLE FINISHED */
 
-
-
-
-
 /* COMMIT STYLE STARTED */
 
-.commit__wrapper{
+.commit__wrapper {
   display: flex;
   margin: 0 85px;
   padding: 168px 0;
   margin-bottom: 170px;
 }
 
-.commit__section-img{
+.commit__section-img {
   width: 445px;
   height: 520px;
   margin-right: 125px;
 }
 
-.commit__section-title{
-  font-family: 'Fraunces', serif;
+.commit__section-title {
+  font-family: "Fraunces", serif;
   font-size: 40px;
   font-weight: 900;
   line-height: 48px;
-  color: #333D4B;
+  color: #333d4b;
   margin-bottom: 32px;
   padding-top: 90px;
 }
 
-.commit__section-desc{
+.commit__section-desc {
   width: 540px;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: #333D4B;
+  color: #333d4b;
 }
 
 /* COMMIT STYLE FINISHED */
 
-
-
-
-
 /* PRODUCT STYLE STARTED */
 
-.product__wrapper{
+.product__wrapper {
   position: relative;
   display: flex;
   justify-content: space-between;
-  background: #2C343E;
+  background: #2c343e;
   border-radius: 10px;
   padding: 85px;
   margin-bottom: 170px;
 }
 
-.product__section-title{
-  font-family: 'Fraunces', serif;
+.product__section-title {
+  font-family: "Fraunces", serif;
   font-size: 40px;
   font-weight: 900;
   line-height: 48px;
-  color: #FEFCF7;
+  color: #fefcf7;
   margin-bottom: 32px;
 }
 
-.product__section-desc{
+.product__section-desc {
   width: 540px;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #fefcf7;
   padding-bottom: 90px;
   opacity: 80%;
 }
 
-.product__section-img{
+.product__section-img {
   position: absolute;
   top: -85px;
   right: 0;
@@ -185,44 +168,41 @@ ul{
 
 /* PRODUCT STYLE FINISHED */
 
-
-
-
-
 /* LOCATION STYLE STARTED */
 
-.location__wrapper{
+.location__wrapper {
   margin: 0 85px;
+  margin-bottom: 170px;
 }
 
-.location__section-title{
-  font-family: 'Fraunces', serif;
+.location__section-title {
+  font-family: "Fraunces", serif;
   font-size: 24px;
   font-weight: 900;
   line-height: 32px;
-  color: #83888F;
+  color: #83888f;
   margin-bottom: 72px;
 }
 
-.location__section-map{
+.location__section-map {
   display: flex;
 }
 
-.location__address{
-  margin-right: 200px;
+.location__address {
+  margin-right: 180px;
 }
 
-.location__address-title{
+.location__address-title {
   display: flex;
   flex-direction: column;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 32px;
   line-height: 36px;
-  color: #333D4B;
+  color: #333d4b;
   margin-bottom: 24px;
 }
 
-.uk::before{
+.uk::before {
   content: "";
   display: inline-block;
   width: 41px;
@@ -231,7 +211,7 @@ ul{
   margin-bottom: 46px;
 }
 
-.canada::before{
+.canada::before {
   content: "";
   display: inline-block;
   width: 51.56px;
@@ -240,7 +220,7 @@ ul{
   margin-bottom: 46px;
 }
 
-.australia::before{
+.australia::before {
   content: "";
   display: inline-block;
   width: 49px;
@@ -249,17 +229,57 @@ ul{
   margin-bottom: 46px;
 }
 
-.location__address-desc{
+.location__address-desc {
   width: 150px;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
 }
 
 /* LOCATION STYLE FINISHED */
 
-
-
-
-
 /* FOOTER STYLE STARTED */
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c343e;
+  padding: 48px 85px;
+  margin-bottom: 85px;
+}
+
+.footer__start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 622px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  width: 283px;
+}
+
+.footer__link {
+  font-size: 12px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+  color: #83888F;
+  text-transform: uppercase;
+}
+
+.footer__icons{
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.footer__icons i{
+  font-size: 25px;
+  color: #FEFCF7;
+}
+
 /* FOOTER STYLE FINISHED */
